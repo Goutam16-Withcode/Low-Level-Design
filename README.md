@@ -27,7 +27,7 @@ Structural patterns focus on how classes and objects are composed.
 | Adapter | Implemented | [adapter-deisgn/adapter-design.cpp](adapter-deisgn/adapter-design.cpp) | Converts one interface into another so incompatible classes can work together. |
 | Bridge | Missing | Not present | Splits abstraction from implementation so both can evolve independently. |
 | Composite | Implemented | [composite-pattern/composite-design-pattern.cpp](composite-pattern/composite-design-pattern.cpp) | Treats individual objects and groups of objects the same way through a tree structure. |
-| Decorator | Missing | Not present | Adds behavior to an object dynamically without changing its class. |
+| Decorator | Implemented | [decorator-pattern/decorator.cpp](decorator-pattern/decorator.cpp) | Adds behavior to an object dynamically without changing its class. |
 | Facade | Implemented | [facade-pattern/facade-code.cpp](facade-pattern/facade-code.cpp) | Provides a simple interface over a complex subsystem. |
 | Flyweight | Missing | Not present | Shares common state across many objects to reduce memory usage. |
 | Proxy | Missing | Not present | Acts as a stand-in that controls access to another object. |
