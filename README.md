@@ -13,22 +13,14 @@ The examples are grouped by classic design pattern categories and include both G
 - Builder
 - Prototype
 
-### Structural Patterns
-- Adapter
-- Composite
-- Decorator
-- Facade
-- Proxy
-
+### Structural Patterns\n- Adapter\n- Bridge\n- Composite\n- Decorator\n- Facade\n- Proxy\n
 ### Behavioral Patterns
 - The repository currently focuses mainly on structural and creational examples, and more behavioral patterns can be added over time.
 
 ## Folder overview
 
 - [adapter-deisgn](adapter-deisgn) - Adapter pattern example
-- [builder-desin](builder-desin) - Builder pattern examples
-- [composite-pattern](composite-pattern) - Composite pattern example
-- [decorator-pattern](decorator-pattern) - Decorator pattern example
+- [builder-desin](builder-desin) - Builder pattern examples\n- [bridge-design-pattern](bridge-design-pattern) - Bridge pattern example\n- [composite-pattern](composite-pattern) - Composite pattern example\n- [decorator-pattern](decorator-pattern) - Decorator pattern example
 - [facade-pattern](facade-pattern) - Facade pattern example
 - [factory-design](factory-design) - Factory and abstract factory examples
 - [prototype-design](prototype-design) - Prototype pattern examples
@@ -40,9 +32,7 @@ The examples are grouped by classic design pattern categories and include both G
 
 - [adapter-deisgn/adapter-design.cpp](adapter-deisgn/adapter-design.cpp)
 - [builder-desin/builder.cpp](builder-desin/builder.cpp)
-- [builder-desin/builderwithdirector.cpp](builder-desin/builderwithdirector.cpp)
-- [builder-desin/step_builder.cpp](builder-desin/step_builder.cpp)
-- [builder-desin/without_builder.cpp](builder-desin/without_builder.cpp)
+- [builder-desin/builderwithdirector.cpp](builder-desin/builderwithdirector.cpp)\n- [builder-desin/step_builder.cpp](builder-desin/step_builder.cpp)\n- [bridge-design-pattern/BridgePattern.cpp](bridge-design-pattern/BridgePattern.cpp)\n- [builder-desin/without_builder.cpp](builder-desin/without_builder.cpp)
 - [composite-pattern/composite-design-pattern.cpp](composite-pattern/composite-design-pattern.cpp)
 - [decorator-pattern/decorator.cpp](decorator-pattern/decorator.cpp)
 - [facade-pattern/facade-code.cpp](facade-pattern/facade-code.cpp)
@@ -74,3 +64,4 @@ g++ proxy-design-pattern/VirtualProxy.cpp -o VirtualProxy
 - Some folder names contain spelling variations such as "builder-desin" and "adapter-deisgn".
 - The repository is best used as a practical reference for understanding how common design patterns are implemented in C++.
 - Feel free to add new examples for missing behavioral patterns such as Observer, Strategy, Command, State, and Visitor.
+
