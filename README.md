@@ -20,6 +20,7 @@ The examples are grouped by classic design pattern categories and include both G
 - Decorator
 - Facade
 - Proxy
+- Flyweight
 
 ### Behavioral Patterns
 - The repository currently focuses mainly on structural and creational examples, and more behavioral patterns can be added over time.
@@ -33,10 +34,18 @@ The examples are grouped by classic design pattern categories and include both G
 - [decorator-pattern](decorator-pattern) - Decorator pattern example
 - [facade-pattern](facade-pattern) - Facade pattern example
 - [factory-design](factory-design) - Factory and abstract factory examples
+- [flyweight-deisgn-pattern](flyweight-deisgn-pattern) - Flyweight pattern example for a space-game asteroid system
 - [prototype-design](prototype-design) - Prototype pattern examples
 - [proxy-design-pattern](proxy-design-pattern) - Protection, Remote, and Virtual Proxy examples
 - [Singleton-design](Singleton-design) - Singleton implementations
 - [Food-delivery](Food-delivery) - Additional design practice area
+
+## New design example
+
+The latest addition is a Flyweight pattern example that demonstrates how shared intrinsic state can reduce memory usage for many similar objects. The example models asteroids in a space game so the common asteroid properties are reused through a flyweight factory while each asteroid keeps only its position and velocity as context.
+
+- [flyweight-deisgn-pattern/withflyweight.cpp](flyweight-deisgn-pattern/withflyweight.cpp) - uses the Flyweight pattern and a factory to reuse common asteroid data
+- [flyweight-deisgn-pattern/withoutflyweight.cpp](flyweight-deisgn-pattern/withoutflyweight.cpp) - shows the same scenario without optimization for comparison
 
 ## Key examples available
 
@@ -52,6 +61,8 @@ The examples are grouped by classic design pattern categories and include both G
 - [factory-design/abstract_factory.cpp](factory-design/abstract_factory.cpp)
 - [factory-design/factory_method.cpp](factory-design/factory_method.cpp)
 - [factory-design/simple_factor.cpp](factory-design/simple_factor.cpp)
+- [flyweight-deisgn-pattern/withflyweight.cpp](flyweight-deisgn-pattern/withflyweight.cpp)
+- [flyweight-deisgn-pattern/withoutflyweight.cpp](flyweight-deisgn-pattern/withoutflyweight.cpp)
 - [prototype-design/with_prtotype.cpp](prototype-design/with_prtotype.cpp)
 - [prototype-design/without_prototype.cpp](prototype-design/without_prototype.cpp)
 - [proxy-design-pattern/ProtectionProxy.cpp](proxy-design-pattern/ProtectionProxy.cpp)
@@ -68,8 +79,8 @@ Each example is a standalone C++ source file. You can compile and run it with g+
 Example:
 
 ```bash
-g++ proxy-design-pattern/VirtualProxy.cpp -o VirtualProxy
-./VirtualProxy
+g++ flyweight-deisgn-pattern/withflyweight.cpp -o withflyweight
+./withflyweight
 ```
 
 ## Notes
