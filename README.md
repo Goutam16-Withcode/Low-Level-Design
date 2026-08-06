@@ -1,19 +1,19 @@
 ﻿# Low Level Design Patterns in C++
 
-This repository contains a collection of Low Level Design (LLD) and object-oriented design pattern examples implemented in C++. It is intended for learning, interview preparation, and practicing common software design concepts.
+This repository contains a collection of C++ examples for common low-level design concepts and object-oriented design patterns. It is intended for learning, interview preparation, and practicing software design.
 
-## What this repository covers
+## What is included
 
-The examples are grouped by classic design pattern categories and include both GoF patterns and commonly used LLD patterns.
+The examples are organized by pattern family and cover both classic GoF patterns and practical LLD-style implementations.
 
-### Creational Patterns
+### Creational patterns
 - Singleton
 - Factory Method
 - Abstract Factory
 - Builder
 - Prototype
 
-### Structural Patterns
+### Structural patterns
 - Adapter
 - Bridge
 - Composite
@@ -22,39 +22,33 @@ The examples are grouped by classic design pattern categories and include both G
 - Proxy
 - Flyweight
 
-### Behavioral Patterns
-- The repository currently focuses mainly on structural and creational examples, and more behavioral patterns can be added over time.
+### Behavioral patterns
+- Template Method
 
-## Folder overview
+## Repository structure
 
-- [adapter-deisgn](adapter-deisgn) - Adapter pattern example
-- [builder-desin](builder-desin) - Builder pattern examples
-- [bridge-design-pattern](bridge-design-pattern) - Bridge pattern example
-- [composite-pattern](composite-pattern) - Composite pattern example
-- [decorator-pattern](decorator-pattern) - Decorator pattern example
-- [facade-pattern](facade-pattern) - Facade pattern example
-- [factory-design](factory-design) - Factory and abstract factory examples
-- [flyweight-deisgn-pattern](flyweight-deisgn-pattern) - Flyweight pattern example for a space-game asteroid system
-- [prototype-design](prototype-design) - Prototype pattern examples
-- [proxy-design-pattern](proxy-design-pattern) - Protection, Remote, and Virtual Proxy examples
-- [Singleton-design](Singleton-design) - Singleton implementations
-- [Food-delivery](Food-delivery) - Additional design practice area
+- [adapter-deisgn](adapter-deisgn) — Adapter pattern example
+- [bridge-design-pattern](bridge-design-pattern) — Bridge pattern example
+- [builder-desin](builder-desin) — Builder pattern examples and variations
+- [composite-pattern](composite-pattern) — Composite pattern example
+- [decorator-pattern](decorator-pattern) — Decorator pattern example
+- [facade-pattern](facade-pattern) — Facade pattern example
+- [factory-design](factory-design) — Factory, abstract factory, and simple factory examples
+- [flyweight-deisgn-pattern](flyweight-deisgn-pattern) — Flyweight pattern example with and without optimization
+- [Food-delivery](Food-delivery) — Additional design practice area
+- [prototype-design](prototype-design) — Prototype pattern examples
+- [proxy-design-pattern](proxy-design-pattern) — Protection, Remote, and Virtual Proxy examples
+- [Singleton-design](Singleton-design) — Multiple Singleton implementations
+- [TemplateMethodPattern](TemplateMethodPattern) — Template Method pattern example
 
-## New design example
-
-The latest addition is a Flyweight pattern example that demonstrates how shared intrinsic state can reduce memory usage for many similar objects. The example models asteroids in a space game so the common asteroid properties are reused through a flyweight factory while each asteroid keeps only its position and velocity as context.
-
-- [flyweight-deisgn-pattern/withflyweight.cpp](flyweight-deisgn-pattern/withflyweight.cpp) - uses the Flyweight pattern and a factory to reuse common asteroid data
-- [flyweight-deisgn-pattern/withoutflyweight.cpp](flyweight-deisgn-pattern/withoutflyweight.cpp) - shows the same scenario without optimization for comparison
-
-## Key examples available
+## Key examples
 
 - [adapter-deisgn/adapter-design.cpp](adapter-deisgn/adapter-design.cpp)
 - [builder-desin/builder.cpp](builder-desin/builder.cpp)
 - [builder-desin/builderwithdirector.cpp](builder-desin/builderwithdirector.cpp)
 - [builder-desin/step_builder.cpp](builder-desin/step_builder.cpp)
-- [bridge-design-pattern/BridgePattern.cpp](bridge-design-pattern/BridgePattern.cpp)
 - [builder-desin/without_builder.cpp](builder-desin/without_builder.cpp)
+- [bridge-design-pattern/BridgePattern.cpp](bridge-design-pattern/BridgePattern.cpp)
 - [composite-pattern/composite-design-pattern.cpp](composite-pattern/composite-design-pattern.cpp)
 - [decorator-pattern/decorator.cpp](decorator-pattern/decorator.cpp)
 - [facade-pattern/facade-code.cpp](facade-pattern/facade-code.cpp)
@@ -71,20 +65,21 @@ The latest addition is a Flyweight pattern example that demonstrates how shared 
 - [Singleton-design/eagr_initilization.cpp](Singleton-design/eagr_initilization.cpp)
 - [Singleton-design/lazy_loading.cpp](Singleton-design/lazy_loading.cpp)
 - [Singleton-design/thread_safe_code.cpp](Singleton-design/thread_safe_code.cpp)
+- [TemplateMethodPattern/TemplateMethodPattern.cpp](TemplateMethodPattern/TemplateMethodPattern.cpp)
 
-## How to run examples
+## How to run
 
-Each example is a standalone C++ source file. You can compile and run it with g++.
-
-Example:
+Each example is a standalone C++ file. You can compile and run it with g++:
 
 ```bash
-g++ flyweight-deisgn-pattern/withflyweight.cpp -o withflyweight
-./withflyweight
+g++ TemplateMethodPattern/TemplateMethodPattern.cpp -o template_method
+./template_method
 ```
+
+You can replace the source path with any other example file to try a different pattern.
 
 ## Notes
 
 - Some folder names contain spelling variations such as "builder-desin" and "adapter-deisgn".
-- The repository is best used as a practical reference for understanding how common design patterns are implemented in C++.
-- Feel free to add new examples for missing behavioral patterns such as Observer, Strategy, Command, State, and Visitor.
+- This repository is best used as a practical reference for understanding pattern implementations in C++.
+- Contributions and new examples are welcome.
