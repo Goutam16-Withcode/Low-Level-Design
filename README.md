@@ -23,6 +23,7 @@ The examples are organized by pattern family and cover both classic GoF patterns
 - Flyweight
 
 ### Behavioral patterns
+- Chain of Responsibility
 - Template Method
 - Observer
 
@@ -31,6 +32,7 @@ The examples are organized by pattern family and cover both classic GoF patterns
 - [adapter-deisgn](adapter-deisgn) — Adapter pattern example
 - [bridge-design-pattern](bridge-design-pattern) — Bridge pattern example
 - [builder-desin](builder-desin) — Builder pattern examples and variations
+- [chainofresponsibility](chainofresponsibility) — Chain of Responsibility pattern example for ATM dispensing
 - [composite-pattern](composite-pattern) — Composite pattern example
 - [decorator-pattern](decorator-pattern) — Decorator pattern example
 - [facade-pattern](facade-pattern) — Facade pattern example
@@ -51,6 +53,7 @@ The examples are organized by pattern family and cover both classic GoF patterns
 - [builder-desin/step_builder.cpp](builder-desin/step_builder.cpp)
 - [builder-desin/without_builder.cpp](builder-desin/without_builder.cpp)
 - [bridge-design-pattern/BridgePattern.cpp](bridge-design-pattern/BridgePattern.cpp)
+- [chainofresponsibility/COR.cpp](chainofresponsibility/COR.cpp)
 - [composite-pattern/composite-design-pattern.cpp](composite-pattern/composite-design-pattern.cpp)
 - [decorator-pattern/decorator.cpp](decorator-pattern/decorator.cpp)
 - [facade-pattern/facade-code.cpp](facade-pattern/facade-code.cpp)
