@@ -24,6 +24,7 @@ The examples are organized by pattern family and cover both classic GoF patterns
 
 ### Behavioral patterns
 - Chain of Responsibility
+- Strategy
 - Template Method
 - Observer
 
@@ -43,6 +44,7 @@ The examples are organized by pattern family and cover both classic GoF patterns
 - [prototype-design](prototype-design) — Prototype pattern examples
 - [proxy-design-pattern](proxy-design-pattern) — Protection, Remote, and Virtual Proxy examples
 - [Singleton-design](Singleton-design) — Multiple Singleton implementations
+- [streategy-design-pattern](streategy-design-pattern) — Strategy pattern example
 - [TemplateMethodPattern](TemplateMethodPattern) — Template Method pattern example
 
 ## Key examples
@@ -71,6 +73,7 @@ The examples are organized by pattern family and cover both classic GoF patterns
 - [Singleton-design/eagr_initilization.cpp](Singleton-design/eagr_initilization.cpp)
 - [Singleton-design/lazy_loading.cpp](Singleton-design/lazy_loading.cpp)
 - [Singleton-design/thread_safe_code.cpp](Singleton-design/thread_safe_code.cpp)
+- [streategy-design-pattern/StrategyDesignPattern.cpp](streategy-design-pattern/StrategyDesignPattern.cpp)
 - [TemplateMethodPattern/TemplateMethodPattern.cpp](TemplateMethodPattern/TemplateMethodPattern.cpp)
 
 ## How to run
