@@ -1,10 +1,10 @@
-ï»¿# Low Level Design Patterns in C++
+# Low Level Design Patterns in C++
 
-This repository contains a collection of C++ examples for common low-level design concepts and object-oriented design patterns. It is intended for learning, interview preparation, and practicing software design.
+This repository contains C++ examples of common low-level design concepts and object-oriented design patterns. It is intended for learning, interview preparation, and practicing software design.
 
-## What is included
+## What this repository covers
 
-The examples are organized by pattern family and cover both classic GoF patterns and practical LLD-style implementations.
+The examples are grouped by pattern family and include both classic Gang of Four (GoF) patterns and practical LLD-style implementations.
 
 ### Creational patterns
 - Singleton
@@ -24,66 +24,66 @@ The examples are organized by pattern family and cover both classic GoF patterns
 
 ### Behavioral patterns
 - Chain of Responsibility
+- Command
+- Iterator
+- Observer
 - Strategy
 - Template Method
-- Observer
+
+### Additional practice area
+- Food delivery design examples
 
 ## Repository structure
 
-- [adapter-deisgn](adapter-deisgn) â€” Adapter pattern example
-- [bridge-design-pattern](bridge-design-pattern) â€” Bridge pattern example
-- [builder-desin](builder-desin) â€” Builder pattern examples and variations
-- [chainofresponsibility](chainofresponsibility) â€” Chain of Responsibility pattern example for ATM dispensing
-- [composite-pattern](composite-pattern) â€” Composite pattern example
-- [decorator-pattern](decorator-pattern) â€” Decorator pattern example
-- [facade-pattern](facade-pattern) â€” Facade pattern example
-- [factory-design](factory-design) â€” Factory, abstract factory, and simple factory examples
-- [flyweight-deisgn-pattern](flyweight-deisgn-pattern) â€” Flyweight pattern example with and without optimization
-- [Food-delivery](Food-delivery) â€” Additional design practice area
-- [observer-design-pattern](observer-design-pattern) â€” Observer pattern example
-- [prototype-design](prototype-design) â€” Prototype pattern examples
-- [proxy-design-pattern](proxy-design-pattern) â€” Protection, Remote, and Virtual Proxy examples
-- [Singleton-design](Singleton-design) â€” Multiple Singleton implementations
-- [streategy-design-pattern](streategy-design-pattern) â€” Strategy pattern example
-- [TemplateMethodPattern](TemplateMethodPattern) â€” Template Method pattern example
+- [adapter-deisgn](adapter-deisgn) — Adapter pattern example
+- [bridge-design-pattern](bridge-design-pattern) — Bridge pattern example
+- [builder-desin](builder-desin) — Builder pattern examples and variations
+- [chainofresponsibility](chainofresponsibility) — Chain of Responsibility example
+- [command-design-pattern](command-design-pattern) — Command pattern example
+- [composite-pattern](composite-pattern) — Composite pattern example
+- [decorator-pattern](decorator-pattern) — Decorator pattern example
+- [facade-pattern](facade-pattern) — Facade pattern example
+- [factory-design](factory-design) — Factory, abstract factory, and simple factory examples
+- [flyweight-deisgn-pattern](flyweight-deisgn-pattern) — Flyweight pattern example with and without optimization
+- [Food-delivery](Food-delivery) — Additional design practice area
+- [iterator-design-pattern](iterator-design-pattern) — Iterator pattern examples
+- [observer-design-pattern](observer-design-pattern) — Observer pattern example
+- [prototype-design](prototype-design) — Prototype pattern examples
+- [proxy-design-pattern](proxy-design-pattern) — Protection, Remote, and Virtual Proxy examples
+- [Singleton-design](Singleton-design) — Multiple Singleton implementations
+- [streategy-design-pattern](streategy-design-pattern) — Strategy pattern example
+- [TemplateMethodPattern](TemplateMethodPattern) — Template Method pattern example
 
-## Key examples
+## Example files
+
+A few representative files include:
 
 - [adapter-deisgn/adapter-design.cpp](adapter-deisgn/adapter-design.cpp)
 - [builder-desin/builder.cpp](builder-desin/builder.cpp)
 - [builder-desin/builderwithdirector.cpp](builder-desin/builderwithdirector.cpp)
-- [builder-desin/step_builder.cpp](builder-desin/step_builder.cpp)
-- [builder-desin/without_builder.cpp](builder-desin/without_builder.cpp)
 - [bridge-design-pattern/BridgePattern.cpp](bridge-design-pattern/BridgePattern.cpp)
 - [chainofresponsibility/COR.cpp](chainofresponsibility/COR.cpp)
+- [command-design-pattern/command.cpp](command-design-pattern/command.cpp)
 - [composite-pattern/composite-design-pattern.cpp](composite-pattern/composite-design-pattern.cpp)
-- [decorator-pattern/decorator.cpp](decorator-pattern/decorator.cpp)
-- [facade-pattern/facade-code.cpp](facade-pattern/facade-code.cpp)
 - [factory-design/abstract_factory.cpp](factory-design/abstract_factory.cpp)
 - [factory-design/factory_method.cpp](factory-design/factory_method.cpp)
-- [factory-design/simple_factor.cpp](factory-design/simple_factor.cpp)
-- [flyweight-deisgn-pattern/withflyweight.cpp](flyweight-deisgn-pattern/withflyweight.cpp)
-- [flyweight-deisgn-pattern/withoutflyweight.cpp](flyweight-deisgn-pattern/withoutflyweight.cpp)
+- [iterator-design-pattern/with_iterator.cpp](iterator-design-pattern/with_iterator.cpp)
 - [observer-design-pattern/ObserverDesignPattern.cpp](observer-design-pattern/ObserverDesignPattern.cpp)
-- [prototype-design/with_prtotype.cpp](prototype-design/with_prtotype.cpp)
-- [prototype-design/without_prototype.cpp](prototype-design/without_prototype.cpp)
 - [proxy-design-pattern/ProtectionProxy.cpp](proxy-design-pattern/ProtectionProxy.cpp)
-- [proxy-design-pattern/RemoteProxy.cpp](proxy-design-pattern/RemoteProxy.cpp)
-- [proxy-design-pattern/VirtualProxy.cpp](proxy-design-pattern/VirtualProxy.cpp)
 - [Singleton-design/eagr_initilization.cpp](Singleton-design/eagr_initilization.cpp)
-- [Singleton-design/lazy_loading.cpp](Singleton-design/lazy_loading.cpp)
-- [Singleton-design/thread_safe_code.cpp](Singleton-design/thread_safe_code.cpp)
 - [streategy-design-pattern/StrategyDesignPattern.cpp](streategy-design-pattern/StrategyDesignPattern.cpp)
 - [TemplateMethodPattern/TemplateMethodPattern.cpp](TemplateMethodPattern/TemplateMethodPattern.cpp)
 
 ## How to run
 
-Each example is a standalone C++ file. You can compile and run it with g++:
+Each example is a standalone C++ file. You can compile and run it with g++ from the repository root.
 
-```bash
-g++ observer-design-pattern/ObserverDesignPattern.cpp -o observer
-./observer
-```
+### Example on Windows PowerShell
+
+`powershell
+g++ .\command-design-pattern\command.cpp -o .\command
+.\command
+`
 
 You can replace the source path with any other example file to try a different pattern.
 
@@ -91,4 +91,4 @@ You can replace the source path with any other example file to try a different p
 
 - Some folder names contain spelling variations such as "builder-desin" and "adapter-deisgn".
 - This repository is best used as a practical reference for understanding pattern implementations in C++.
-- Contributions and new examples are welcome.
+- Feel free to explore the folders, modify the code, and practice by adding your own examples.
