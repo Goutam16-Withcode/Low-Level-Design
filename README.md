@@ -1,4 +1,4 @@
-# Low Level Design Patterns in C++
+﻿# Low Level Design Patterns in C++
 
 This repository contains C++ examples of common low-level design concepts and object-oriented design patterns. It is intended for learning, interview preparation, and practicing software design.
 
@@ -29,6 +29,7 @@ The examples are grouped by pattern family and include both classic Gang of Four
 - Observer
 - Strategy
 - Template Method
+- Memento
 
 ### Additional practice area
 - Food delivery design examples
@@ -53,6 +54,7 @@ The examples are grouped by pattern family and include both classic Gang of Four
 - [Singleton-design](Singleton-design) � Multiple Singleton implementations
 - [streategy-design-pattern](streategy-design-pattern) � Strategy pattern example
 - [TemplateMethodPattern](TemplateMethodPattern) � Template Method pattern example
+- [memento-pattern](memento-pattern) � Memento pattern example
 
 ## Example files
 
@@ -73,6 +75,7 @@ A few representative files include:
 - [Singleton-design/eagr_initilization.cpp](Singleton-design/eagr_initilization.cpp)
 - [streategy-design-pattern/StrategyDesignPattern.cpp](streategy-design-pattern/StrategyDesignPattern.cpp)
 - [TemplateMethodPattern/TemplateMethodPattern.cpp](TemplateMethodPattern/TemplateMethodPattern.cpp)
+- [memento-pattern/memento-design-pattern.cpp](memento-pattern/memento-design-pattern.cpp)
 
 ## How to run
 
@@ -80,9 +83,7 @@ Each example is a standalone C++ file. You can compile and run it with g++ from 
 
 ### Example on Windows PowerShell
 
-`powershell
 g++ .\command-design-pattern\command.cpp -o .\command
 .\command
-`
 
 You can replace the source path with any other example file to try a different pattern.
