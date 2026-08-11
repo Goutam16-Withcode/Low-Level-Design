@@ -35,24 +35,24 @@ The examples are grouped by pattern family and include both classic Gang of Four
 
 ## Repository structure
 
-- [adapter-deisgn](adapter-deisgn) — Adapter pattern example
-- [bridge-design-pattern](bridge-design-pattern) — Bridge pattern example
-- [builder-desin](builder-desin) — Builder pattern examples and variations
-- [chainofresponsibility](chainofresponsibility) — Chain of Responsibility example
-- [command-design-pattern](command-design-pattern) — Command pattern example
-- [composite-pattern](composite-pattern) — Composite pattern example
-- [decorator-pattern](decorator-pattern) — Decorator pattern example
-- [facade-pattern](facade-pattern) — Facade pattern example
-- [factory-design](factory-design) — Factory, abstract factory, and simple factory examples
-- [flyweight-deisgn-pattern](flyweight-deisgn-pattern) — Flyweight pattern example with and without optimization
-- [Food-delivery](Food-delivery) — Additional design practice area
-- [iterator-design-pattern](iterator-design-pattern) — Iterator pattern examples
-- [observer-design-pattern](observer-design-pattern) — Observer pattern example
-- [prototype-design](prototype-design) — Prototype pattern examples
-- [proxy-design-pattern](proxy-design-pattern) — Protection, Remote, and Virtual Proxy examples
-- [Singleton-design](Singleton-design) — Multiple Singleton implementations
-- [streategy-design-pattern](streategy-design-pattern) — Strategy pattern example
-- [TemplateMethodPattern](TemplateMethodPattern) — Template Method pattern example
+- [adapter-deisgn](adapter-deisgn) ï¿½ Adapter pattern example
+- [bridge-design-pattern](bridge-design-pattern) ï¿½ Bridge pattern example
+- [builder-desin](builder-desin) ï¿½ Builder pattern examples and variations
+- [chainofresponsibility](chainofresponsibility) ï¿½ Chain of Responsibility example
+- [command-design-pattern](command-design-pattern) ï¿½ Command pattern example
+- [composite-pattern](composite-pattern) ï¿½ Composite pattern example
+- [decorator-pattern](decorator-pattern) ï¿½ Decorator pattern example
+- [facade-pattern](facade-pattern) ï¿½ Facade pattern example
+- [factory-design](factory-design) ï¿½ Factory, abstract factory, and simple factory examples
+- [flyweight-deisgn-pattern](flyweight-deisgn-pattern) ï¿½ Flyweight pattern example with and without optimization
+- [Food-delivery](Food-delivery) ï¿½ Additional design practice area
+- [iterator-design-pattern](iterator-design-pattern) ï¿½ Iterator pattern examples
+- [observer-design-pattern](observer-design-pattern) ï¿½ Observer pattern example
+- [prototype-design](prototype-design) ï¿½ Prototype pattern examples
+- [proxy-design-pattern](proxy-design-pattern) ï¿½ Protection, Remote, and Virtual Proxy examples
+- [Singleton-design](Singleton-design) ï¿½ Multiple Singleton implementations
+- [streategy-design-pattern](streategy-design-pattern) ï¿½ Strategy pattern example
+- [TemplateMethodPattern](TemplateMethodPattern) ï¿½ Template Method pattern example
 
 ## Example files
 
@@ -86,9 +86,3 @@ g++ .\command-design-pattern\command.cpp -o .\command
 `
 
 You can replace the source path with any other example file to try a different pattern.
-
-## Notes
-
-- Some folder names contain spelling variations such as "builder-desin" and "adapter-deisgn".
-- This repository is best used as a practical reference for understanding pattern implementations in C++.
-- Feel free to explore the folders, modify the code, and practice by adding your own examples.
